@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16A30A381770020300C5C28F /* math_base.h in Headers */ = {isa = PBXBuildFile; fileRef = 16A30A2B1770020300C5C28F /* math_base.h */; };
+		16A30A391770020300C5C28F /* math_def.h in Headers */ = {isa = PBXBuildFile; fileRef = 16A30A2C1770020300C5C28F /* math_def.h */; };
+		16A30A3A1770020300C5C28F /* math_type_base.h in Headers */ = {isa = PBXBuildFile; fileRef = 16A30A2D1770020300C5C28F /* math_type_base.h */; };
+		16A30A3B1770020300C5C28F /* Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 16A30A2E1770020300C5C28F /* Matrix.cpp */; };
+		16A30A3C1770020300C5C28F /* Matrix.h in Headers */ = {isa = PBXBuildFile; fileRef = 16A30A2F1770020300C5C28F /* Matrix.h */; };
+		16A30A3D1770020300C5C28F /* Plane.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 16A30A301770020300C5C28F /* Plane.cpp */; };
+		16A30A3E1770020300C5C28F /* Plane.h in Headers */ = {isa = PBXBuildFile; fileRef = 16A30A311770020300C5C28F /* Plane.h */; };
+		16A30A3F1770020300C5C28F /* Vector2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 16A30A321770020300C5C28F /* Vector2.cpp */; };
+		16A30A401770020300C5C28F /* Vector2.h in Headers */ = {isa = PBXBuildFile; fileRef = 16A30A331770020300C5C28F /* Vector2.h */; };
+		16A30A411770020300C5C28F /* Vector3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 16A30A341770020300C5C28F /* Vector3.cpp */; };
+		16A30A421770020300C5C28F /* Vector3.h in Headers */ = {isa = PBXBuildFile; fileRef = 16A30A351770020300C5C28F /* Vector3.h */; };
+		16A30A431770020300C5C28F /* Vector4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 16A30A361770020300C5C28F /* Vector4.cpp */; };
+		16A30A441770020300C5C28F /* Vector4.h in Headers */ = {isa = PBXBuildFile; fileRef = 16A30A371770020300C5C28F /* Vector4.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16A309EA177000EA00C5C28F /* libmath3D.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libmath3D.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		16A30A2B1770020300C5C28F /* math_base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = math_base.h; sourceTree = "<group>"; };
+		16A30A2C1770020300C5C28F /* math_def.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = math_def.h; sourceTree = "<group>"; };
+		16A30A2D1770020300C5C28F /* math_type_base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = math_type_base.h; sourceTree = "<group>"; };
+		16A30A2E1770020300C5C28F /* Matrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Matrix.cpp; sourceTree = "<group>"; };
+		16A30A2F1770020300C5C28F /* Matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix.h; sourceTree = "<group>"; };
+		16A30A301770020300C5C28F /* Plane.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Plane.cpp; sourceTree = "<group>"; };
+		16A30A311770020300C5C28F /* Plane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Plane.h; sourceTree = "<group>"; };
+		16A30A321770020300C5C28F /* Vector2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vector2.cpp; sourceTree = "<group>"; };
+		16A30A331770020300C5C28F /* Vector2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector2.h; sourceTree = "<group>"; };
+		16A30A341770020300C5C28F /* Vector3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vector3.cpp; sourceTree = "<group>"; };
+		16A30A351770020300C5C28F /* Vector3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector3.h; sourceTree = "<group>"; };
+		16A30A361770020300C5C28F /* Vector4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vector4.cpp; sourceTree = "<group>"; };
+		16A30A371770020300C5C28F /* Vector4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector4.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16A309E7177000EA00C5C28F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16A309E1177000EA00C5C28F = {
+			isa = PBXGroup;
+			children = (
+				16A30A2B1770020300C5C28F /* math_base.h */,
+				16A30A2C1770020300C5C28F /* math_def.h */,
+				16A30A2D1770020300C5C28F /* math_type_base.h */,
+				16A30A2E1770020300C5C28F /* Matrix.cpp */,
+				16A30A2F1770020300C5C28F /* Matrix.h */,
+				16A30A301770020300C5C28F /* Plane.cpp */,
+				16A30A311770020300C5C28F /* Plane.h */,
+				16A30A321770020300C5C28F /* Vector2.cpp */,
+				16A30A331770020300C5C28F /* Vector2.h */,
+				16A30A341770020300C5C28F /* Vector3.cpp */,
+				16A30A351770020300C5C28F /* Vector3.h */,
+				16A30A361770020300C5C28F /* Vector4.cpp */,
+				16A30A371770020300C5C28F /* Vector4.h */,
+				16A309EB177000EA00C5C28F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16A309EB177000EA00C5C28F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16A309EA177000EA00C5C28F /* libmath3D.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		16A309E8177000EA00C5C28F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A30A381770020300C5C28F /* math_base.h in Headers */,
+				16A30A391770020300C5C28F /* math_def.h in Headers */,
+				16A30A3A1770020300C5C28F /* math_type_base.h in Headers */,
+				16A30A3C1770020300C5C28F /* Matrix.h in Headers */,
+				16A30A3E1770020300C5C28F /* Plane.h in Headers */,
+				16A30A401770020300C5C28F /* Vector2.h in Headers */,
+				16A30A421770020300C5C28F /* Vector3.h in Headers */,
+				16A30A441770020300C5C28F /* Vector4.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		16A309E9177000EA00C5C28F /* math3D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16A309EE177000EA00C5C28F /* Build configuration list for PBXNativeTarget "math3D" */;
+			buildPhases = (
+				16A309E6177000EA00C5C28F /* Sources */,
+				16A309E7177000EA00C5C28F /* Frameworks */,
+				16A309E8177000EA00C5C28F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = math3D;
+			productName = math3D;
+			productReference = 16A309EA177000EA00C5C28F /* libmath3D.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16A309E2177000EA00C5C28F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = joygame;
+			};
+			buildConfigurationList = 16A309E5177000EA00C5C28F /* Build configuration list for PBXProject "math3D" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 16A309E1177000EA00C5C28F;
+			productRefGroup = 16A309EB177000EA00C5C28F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16A309E9177000EA00C5C28F /* math3D */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16A309E6177000EA00C5C28F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A30A3B1770020300C5C28F /* Matrix.cpp in Sources */,
+				16A30A3D1770020300C5C28F /* Plane.cpp in Sources */,
+				16A30A3F1770020300C5C28F /* Vector2.cpp in Sources */,
+				16A30A411770020300C5C28F /* Vector3.cpp in Sources */,
+				16A30A431770020300C5C28F /* Vector4.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		16A309EC177000EA00C5C28F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		16A309ED177000EA00C5C28F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		16A309EF177000EA00C5C28F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				EXECUTABLE_PREFIX = lib;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos6.1;
+				SYMROOT = build;
+			};
+			name = Debug;
+		};
+		16A309F0177000EA00C5C28F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos6.1;
+				SYMROOT = build;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16A309E5177000EA00C5C28F /* Build configuration list for PBXProject "math3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16A309EC177000EA00C5C28F /* Debug */,
+				16A309ED177000EA00C5C28F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16A309EE177000EA00C5C28F /* Build configuration list for PBXNativeTarget "math3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16A309EF177000EA00C5C28F /* Debug */,
+				16A309F0177000EA00C5C28F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16A309E2177000EA00C5C28F /* Project object */;
+}
