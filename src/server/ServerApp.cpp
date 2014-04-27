@@ -29,9 +29,10 @@ bool ServerApp::init(int argc,const char ** argv)
     if(strcmp(argv[i],"-port") ==0)
     {
        port = atoi(argv[i+1]);
-		}
-	}	
-	dove::NetPoint np;
+    }
+  }	
+  
+  dove::NetPoint np;
   if(np.socket(SOCK_STREAM)<0)
   	return false;
   	
@@ -53,9 +54,9 @@ bool ServerApp::init(int argc,const char ** argv)
   dove::NubPtr nub = new dove::Nub(ServerInterface::getInterfaceHolder());
   nub->setfd(np);
   np.detach();
- 	waitor_.addReadEvent(nub,true);
+  waitor_.addReadEvent(nub,true);
 
-	return true;
+  return true;
 }
 
 void ServerApp::fini()
